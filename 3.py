@@ -1,3 +1,8 @@
+3)Genetic Algorithm for sine function
+-------------------------------------
+
+Code:-
+    
 import random
 import math
 
@@ -43,3 +48,9 @@ for generation in range(num_generations):
         population.append(child)
 best_chromosome = max(population)
 print("Best solution: x =", best_chromosome.x, ", fitness =", best_chromosome.fitness)
+
+----------------------------------------------
+Output:-
+    
+Best solution: x = 1.5707963177777777 , fitness = 1.0
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------

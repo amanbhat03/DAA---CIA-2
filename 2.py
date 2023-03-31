@@ -1,3 +1,8 @@
+2) Cultural Algorithm for TSP
+-----------------------------
+
+Code:-
+    
 import random
 import math
 
@@ -68,5 +73,4 @@ for generation in range(num_generations):
             child.mutate()
 
         new_population.append(child)
-
-   
+----------------------------------------------------------------------------------------------------------------------------------------------------------------------  

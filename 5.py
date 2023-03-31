@@ -1,3 +1,8 @@
+5)Ant Colony Optimization for finding the shortest path in a graph
+-------------------------------------------------------------------
+
+Code:-
+    
 import random
 import numpy as np
 
@@ -57,3 +62,4 @@ for iteration in range(num_iterations):
 
 shortest_path = min(ants, key=lambda ant: fitness(ant.path)).path
 print(shortest_path)
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------

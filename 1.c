@@ -1,3 +1,8 @@
+1)Genetic Algorithm for Travelling Salesman Problem (TSP)
+-----------------------------------------------------------
+
+Code:-
+  
 #include<stdio.h>
 #include<conio.h>
 
@@ -71,3 +76,33 @@ put();
 getch();
 return 0;
 }
+
+-----------------------------------
+Output:-
+
+Enter No. of Cities: 5
+Enter Cost Matrix
+Enter Elements of Row:- : 1
+1 2 3 4 5
+Enter Elements of Row:- : 2
+2 3 4 5 6
+Enter Elements of Row:- : 3
+3 4 5 6 7
+Enter Elements of Row:- : 4
+4 5 6 7 8
+Enter Elements of Row:- : 5
+5 6 7 8 9
+
+The cost list is:
+
+1       2       3       4       5
+2       3       4       5       6
+3       4       5       6       7
+4       5       6       7       8
+5       6       7       8       9
+  
+The Path is:
+1 -->5 -->4 -->3 -->2 -->1
+ 
+Minimum cost:25
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------

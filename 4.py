@@ -1,3 +1,8 @@
+4) Particle Swarm Optimization for sine function - both maxima and minima
+--------------------------------------------------------------------------
+
+Code:-
+    
 import random
 import math
 
@@ -68,3 +73,10 @@ for iteration in range(max_iterations):
 
 print(f"Global best position: {global_best_position}")
 print(f"Global best fitness: {global_best_fitness}")
+
+-------------------------------------------------
+Output:-
+    
+Global best position: [-1.5707963125947286]
+Global best fitness: 0.9999999999999999
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------

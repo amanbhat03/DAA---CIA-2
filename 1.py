@@ -1,3 +1,9 @@
+1) Genetic Algorithm for Travelling Salesman Problem (TSP)
+------------------------------------------------------------
+
+Code:-
+    
+    
 import numpy as np
 import random
 
@@ -58,3 +64,9 @@ for generation in range(num_generations):
 
 best_individual = max(population, key=calculate_fitness)
 print('Best solution:', best_individual)
+
+
+-------------------------------------------------
+Output:-
+    
+
